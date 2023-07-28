@@ -73,13 +73,6 @@ if (isset($_POST['edit_user'])) {
 
     confirmQuery($edit_user_query);
 }
-
-
-
-
-
-
-
 ?>
 
 
@@ -162,4 +155,4 @@ if (isset($_POST['edit_user'])) {
         <!-- /.container-fluid -->
     </div>
     <!-- /#page-wrapper -->
-    <?php include "includes/admin_footer.php" ?>
+    <?php include "includes/admin_footer.php" ;?>
